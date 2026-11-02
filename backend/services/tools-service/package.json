@@ -1,0 +1,21 @@
+{
+  "name": "marathi-tools-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "High-Performance Node.js Marathi Calligraphy, Rajmudra, & Vector Stencil Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "marathi",
+    "calligraphy",
+    "rajmudra",
+    "devanagari",
+    "svg",
+    "transliteration"
+  ],
+  "author": "Marathi Design Studio",
+  "license": "MIT"
+}

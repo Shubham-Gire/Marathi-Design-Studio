@@ -1,0 +1,184 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: marathi-studio-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root}
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./infra/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: marathi-studio-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: cgr.dev/chainguard/minio:latest
+    container_name: marathi-studio-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:-minioadmin}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  api-gateway:
+    build:
+      context: ./backend
+      dockerfile: services/api-gateway/Dockerfile
+    container_name: marathi-studio-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      IDENTITY_SERVICE_HOST: identity-service
+      TEMPLATE_SERVICE_HOST: template-service
+      PROJECT_SERVICE_HOST: project-service
+      MEDIA_SERVICE_HOST: media-service
+      AI_SERVICE_HOST: ai-service
+      BILLING_SERVICE_HOST: billing-service
+      TOOLS_SERVICE_HOST: tools-service
+      JWT_SECRET: ${JWT_SECRET:-super-secret-marathi-design-studio-jwt-key-minimum-256-bits-long-key-for-hmac-sha256}
+    depends_on:
+      - identity-service
+      - template-service
+      - project-service
+      - media-service
+      - ai-service
+      - billing-service
+      - tools-service
+
+  identity-service:
+    build:
+      context: ./backend
+      dockerfile: services/identity-service/Dockerfile
+    container_name: marathi-studio-identity
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+      JWT_SECRET: ${JWT_SECRET:-super-secret-marathi-design-studio-jwt-key-minimum-256-bits-long-key-for-hmac-sha256}
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  template-service:
+    build:
+      context: ./backend
+      dockerfile: services/template-service/Dockerfile
+    container_name: marathi-studio-template
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  project-service:
+    build:
+      context: ./backend
+      dockerfile: services/project-service/Dockerfile
+    container_name: marathi-studio-project
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  media-service:
+    build:
+      context: ./backend
+      dockerfile: services/media-service/Dockerfile
+    container_name: marathi-studio-media
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+      STORAGE_LOCAL_DIR: /app/uploads/media
+    volumes:
+      - media_uploads:/app/uploads/media
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  ai-service:
+    build:
+      context: ./backend
+      dockerfile: services/ai-service/Dockerfile
+    container_name: marathi-studio-ai
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  billing-service:
+    build:
+      context: ./backend
+      dockerfile: services/billing-service/Dockerfile
+    container_name: marathi-studio-billing
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:-root}
+      IDENTITY_SERVICE_HOST: identity-service
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  tools-service:
+    build:
+      context: ./backend/services/tools-service
+      dockerfile: Dockerfile
+    container_name: marathi-studio-tools
+    ports:
+      - "8087:8087"
+    environment:
+      PORT: 8087
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: marathi-studio-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api-gateway
+
+volumes:
+  mysql_data:
+  minio_data:
+  media_uploads:
+
+

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sugarcane Juice (उसाचा रस)",
+    "price_inr": 20,
+    "peak_season": "October to June (Available Year-Round)",
+    "calories_kcal": 180,
+    "primary_vitamins": ["Vitamin B-complex", "Calcium", "Magnesium", "Potassium"],
+    "glycemic_index": 43,
+    "key_benefit": "Natural rehydration, rapid electrolyte replenishment, liver glycogen support."
+  },
+  {
+    "name": "Mosambi & Santra Juice (मोसंबी / संत्रा)",
+    "price_inr": 50,
+    "peak_season": "November to April",
+    "calories_kcal": 120,
+    "primary_vitamins": ["Vitamin C", "Folate", "Flavonoids"],
+    "glycemic_index": 40,
+    "key_benefit": "Boosts immune defenses, gentle on stomach, high bioavailability of citric acid."
+  },
+  {
+    "name": "Mango Juice (आंबा रस)",
+    "price_inr": 50,
+    "peak_season": "March to June",
+    "calories_kcal": 210,
+    "primary_vitamins": ["Vitamin A (Beta-carotene)", "Vitamin C", "Potassium"],
+    "glycemic_index": 51,
+    "key_benefit": "Rich source of carotenoids, supports eye health and summer skin vitality."
+  },
+  {
+    "name": "Apple Juice (सफरचंद रस)",
+    "price_inr": 50,
+    "peak_season": "August to February",
+    "calories_kcal": 115,
+    "primary_vitamins": ["Vitamin C", "Polyphenols", "Quercetin"],
+    "glycemic_index": 41,
+    "key_benefit": "Cardiovascular support, quercetin anti-inflammatory benefits."
+  },
+  {
+    "name": "Pineapple Juice (अननस रस)",
+    "price_inr": 40,
+    "peak_season": "Year-Round",
+    "calories_kcal": 130,
+    "primary_vitamins": ["Bromelain enzyme", "Vitamin C", "Manganese"],
+    "glycemic_index": 59,
+    "key_benefit": "Bromelain aids protein digestion, reduces post-meal bloating."
+  },
+  {
+    "name": "Mixed Fruit Juice (मिक्स्ड फ्रूट)",
+    "price_inr": 40,
+    "peak_season": "Year-Round",
+    "calories_kcal": 150,
+    "primary_vitamins": ["Multivitamin complex", "Antioxidants"],
+    "glycemic_index": 48,
+    "key_benefit": "Broad-spectrum phytonutrients combining citrus and non-citrus fruits."
+  },
+  {
+    "name": "Chikoo Juice / Shake (चिकू)",
+    "price_inr": 40,
+    "peak_season": "January to May",
+    "calories_kcal": 190,
+    "primary_vitamins": ["Tannins", "Dietary Fiber", "Iron", "Vitamin A"],
+    "glycemic_index": 55,
+    "key_benefit": "Sustained athletic energy, natural fructose and dietary fiber."
+  },
+  {
+    "name": "Fig / Anjeer Drink (अंजीर)",
+    "price_inr": 40,
+    "peak_season": "February to May",
+    "calories_kcal": 170,
+    "primary_vitamins": ["Calcium", "Iron", "Potassium", "Phenolic acids"],
+    "glycemic_index": 45,
+    "key_benefit": "Bone density support, promotes healthy digestion and natural hemoglobin synthesis."
+  }
+]

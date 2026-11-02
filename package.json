@@ -1,0 +1,30 @@
+{
+  "name": "marathi-design-studio-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise cloud-based Canva-grade Marathi & English design platform",
+  "workspaces": [
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "test:backend": "node tests/backend-e2e-test.mjs",
+    "test:e2e": "node tests/e2e/comprehensive-canva-platform-test.mjs",
+    "test:all": "node scripts/run-all-tests.mjs",
+    "backend:start": "node scripts/start-all.mjs",
+    "backend:stop": "node scripts/stop-all.mjs"
+  },
+  "keywords": [
+    "marathi-design-studio",
+    "canva-alternative",
+    "graphic-design",
+    "devanagari",
+    "fabricjs",
+    "spring-boot"
+  ],
+  "author": "Marathi Design Studio Team",
+  "license": "UNLICENSED"
+}

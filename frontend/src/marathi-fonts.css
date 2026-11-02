@@ -1,0 +1,2067 @@
+/* Core Unicode Devanagari Font Families */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/mukta-regular.otf') format('opentype'),
+       url('/fonts/mukta-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/baloo-2.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Tillana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/tillana-calligraphy.otf') format('opentype'),
+       url('/fonts/tillana-calligraphy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Yatra One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/yatra-one.otf') format('opentype'),
+       url('/fonts/yatra-one.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/rozha-one.otf') format('opentype'),
+       url('/fonts/rozha-one.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tiro Devanagari Marathi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/tiro-devanagari-marathi.otf') format('opentype'),
+       url('/fonts/tiro-devanagari-marathi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/noto-sans-devanagari.otf') format('opentype'),
+       url('/fonts/noto-sans-devanagari.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Serif Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/noto-serif-devanagari.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/sarpanch-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ranga';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ranga-regular.ttf') format('truetype');
+}
+
+/* Marathi & Devanagari Typography System Generated @font-face Rules */
+
+@font-face {
+  font-family: 'AMS Aaditya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-aaditya.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AMS Aakash';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-aakash.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AMS Manthan';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-lekhani.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SakalBharati';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-sakal.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-saral.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SHREE-DEV-0714';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-shree-lipi.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Baloo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/baloo-2.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Adobe Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/devanagari-new.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kalam-handwritten.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kiran';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kiran-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 011';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-010-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 010';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-010-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 056';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-055-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 055';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-055-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 080';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-080-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 090';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-090-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 100';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-100-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 110';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-110-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 120';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-120-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 130';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-130-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 141';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-140-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 140';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-140-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 150';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-150-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 255';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/kruti-dev-255-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Marathi Lekhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/lekhani-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Mangal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/mangal-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MillenniumAditya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumaditya.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumAmeya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumameya.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumDeepak';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumdeepak.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumGanesh';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumganesh.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumGauri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumgauri.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumMogara';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniummogara.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumNilima';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumnilima.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumPooja';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumpooja.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumPriya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumpriya.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumShailesh';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumshailesh.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumShridhar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumshridhar.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillenniumVarun';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/millenniumvarun.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ek Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/mukta-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ananda Devanagari KTM';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/noto-sans-devanagari.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/pankaj-c.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/pankaj-t.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/pankaj-w.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/pankajb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/pankajbi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pankaj';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/pankaji.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/richa-cn.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/richa-th.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/richa-wd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/richab.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/richabi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Richa';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/richai.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/rozha-one.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Saroj Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/saroj-cn.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saroj Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/saroj-th.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saroj Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/saroj-wd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Priya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/priya.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ranga-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi-Roupya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/roupya.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ruchi-n1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/ruchi-n2.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ruchi-n3.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/ruchi-n4.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/ruchi-n5.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/ruchi-n6.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ruchi-Normal';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/ruchi-no.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saroj';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/sarojb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saroj';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/sarojbi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saroj';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/saroji.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/sarpanch-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shivaji01';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/shivaji-unicode.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Shivaji05';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/shivaji05-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Tillana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/tillana-calligraphy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Marathi Tirkas';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/tirkas.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi-Vakra';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/vakra.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/varsha.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/varsha-c.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/varsha-t.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/varsha-w.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/varshab.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/varshabi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varsha';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/varshai.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal Condensed';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/vimal-cn.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal Thin';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/vimal-th.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal Wide';
+  font-style: normal;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/vimal-wd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/vimalb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal';
+  font-style: bold italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/vimalbi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vimal';
+  font-style: italic;
+  font-weight: 5;
+  font-display: swap;
+  src: url('/fonts/vimali.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Yatra One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/yatra-one.otf') format('opentype');
+}
+
+/* Additional Verified AMS Calligraphy Font Rules */
+@font-face {
+  font-family: 'AMS Lekhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-lekhani.otf') format('opentype'),
+       url('/fonts/ams-lekhani.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kiran';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-kiran.otf') format('opentype'),
+       url('/fonts/ams-kiran.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Sakal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-sakal.otf') format('opentype'),
+       url('/fonts/ams-sakal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Saral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-saral.otf') format('opentype'),
+       url('/fonts/ams-saral.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Shree Lipi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-shree-lipi.otf') format('opentype'),
+       url('/fonts/ams-shree-lipi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Vasudeva';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ams-vasudeva.otf') format('opentype'),
+       url('/fonts/ams-vasudeva.ttf') format('truetype');
+}
+
+/* ========================================================= */
+/* EXPANDED MARATHI & CALLIGRAPHY FONTS (STUDIOPK PACKAGE) */
+/* ========================================================= */
+
+@font-face {
+  font-family: 'Ajay Normal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Ajay%20Normal%20Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aman';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Aman%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Amit-Normal Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Amit-Normal%20Condensed%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%204%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 5';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%205%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 6';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%206%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 7';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%207%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aakul 8';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aakul%208%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Aasmi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Aasmi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Afrin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Afrin%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Ankur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Ankur%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS BadHand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20BadHand%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Barakhadi 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Barakhadi%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Barakhadi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Barakhadi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Bhagyshri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Bhagyshri%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Bindu Rekha 1 Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Bindu%20Rekha%201%20Bold%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Bindu Rekha 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Bindu%20Rekha%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%204%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 5';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%205%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 6';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%206%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 7';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%207%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 8';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%208%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Calligraphy 9';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Calligraphy%209%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Candy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Candy%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Chandrakant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Chandrakant%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Chhatrapati';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Chhatrapati%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Cinema';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Cinema%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Darshana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Darshana%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Dasra 01';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Dasra%2001%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Deepak';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Deepak%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Diamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Diamond%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Dipanshu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Dipanshu%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Dipawali 01';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Dipawali%2001%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Divya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Divya%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Diya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Diya%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Ganesha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Ganesha%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS GeoScript';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20GeoScript%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Girija';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Girija%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Glassy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Glassy%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Gourav Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Gourav%20Bold%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Gourav';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Gourav%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Grass';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Grass%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Handwriting 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Handwriting%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Handwriting 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Handwriting%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Handwriting 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Handwriting%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Handwriting 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Handwriting%204%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Harshdeep';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Harshdeep%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Hastkala 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Hastkala%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Hastkala 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Hastkala%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Hastkala';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Hastkala%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Indu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Indu%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Jambo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Jambo%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Jiwan';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Jiwan%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kangna';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kangna%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kartik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kartik%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Karuna';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Karuna%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kashi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kashi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kasturi 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kasturi%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kasturi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kasturi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kesri 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kesri%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kesri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kesri%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Kirti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Kirti%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Leafy 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Leafy%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Leafy 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Leafy%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Leafy 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Leafy%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Leafy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Leafy%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 1 Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%201%20Bold%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%204%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Lekhan 5';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Lekhan%205%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS MahaBharat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20MahaBharat%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Manoja';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Manoja%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Mantra';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Mantra%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Matarani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Matarani%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Meghna';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Meghna%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Modi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Modi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Morya 01';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Morya%2001%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Navratri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Navratri%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Nirakriti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Nirakriti%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Pankaj';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Pankaj%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Payal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Payal%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Pencil';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Pencil%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Premankur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Premankur%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Purvi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Purvi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS RaviKumar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20RaviKumar%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%202%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%203%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%204%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 5';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%205%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Rekha 6';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Rekha%206%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Samanya 1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Samanya%201%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Samanya Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Samanya%20Bold%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Samanya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Samanya%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Sandhya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Sandhya%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Shikha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Shikha%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Shloka';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Shloka%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS SimaRekha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20SimaRekha%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Sindhu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Sindhu%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Sudha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Sudha%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Sundar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Sundar%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Swarup Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Swarup%20Bold%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Swarup Reguler';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Swarup%20Reguler%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Swarup Thin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Swarup%20Thin%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Tikiya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Tikiya%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Tushar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Tushar%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Umakant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Umakant%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Uttar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Uttar%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Vardan';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Vardan%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Varsha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Varsha%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Varun';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Varun%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Vedant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Vedant%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Vina';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Vina%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Viram';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Viram%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Wishes';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Wishes%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Wood';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Wood%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AMS Yantra';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/AMS%20Yantra%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ananda Namaste';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Ananda%20Namaste%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Chandas';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Chandas%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Devanagari New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Devanagari%20New%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DevLys 010';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/DevLys%20010%20Bold%20Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gargi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/gargi%20Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kalimati';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Kalimati%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'KF-Kiran';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/KF-Kiran%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Khand SemiBold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Khand%20SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 111';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Kruti%20Dev%20111%20Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kruti Dev 163';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Kruti%20Dev%20163%20Bold%20Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Devanagari%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Kashmiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Kashmiri%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Konkani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Konkani%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Maithili';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Maithili%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Marathi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Marathi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Nepali';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Nepali%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lohit Sindhi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lohit%20Sindhi%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi Sharada';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Marathi%20Sharada%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi-Kanak';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Marathi-Kanak%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi-Lekhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Marathi-Lekhani%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Marathi-Saras';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Marathi-Saras%20Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nakula';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Nakula%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sahadeva';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Sahadeva%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Samanata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Samanata%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Samyak Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Samyak%20Devanagari%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sarai';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Sarai%20Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shivaji02';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Shivaji02%20Normal.ttf') format('truetype');
+}
